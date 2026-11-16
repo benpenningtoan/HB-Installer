@@ -8,5 +8,6 @@ chmod -R go-w "$(brew --prefix)/share/zsh"
 echo 'eval "$(~/hb/bin/brew shellenv)"' >> ~/.zshrc
 source ~/.zshrc
 brew install pip python python3
+$(brew --prefix python)/libexec/bin
 python -m pip --version
 ```
